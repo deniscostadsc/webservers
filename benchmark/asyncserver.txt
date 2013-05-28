@@ -12,3 +12,8 @@ Successful transactions:       10000
 Failed transactions:               0
 Longest transaction:            3.35
 Shortest transaction:           0.00
+
+# CPU/Memory usage
+
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+denis     3008  0.5  0.1  11544  5152 pts/1    S+   16:41   0:12 /usr/bin/python ./asyncserver.py

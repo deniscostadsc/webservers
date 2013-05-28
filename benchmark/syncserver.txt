@@ -12,4 +12,9 @@ Successful transactions:       13997
 Failed transactions:               3
 Longest transaction:            3.66
 Shortest transaction:           0.00
+
+# CPU/Memory usage
+
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+denis     3009  0.9  0.1  10896  4400 pts/3    S+   16:41   0:19 /usr/bin/python ./syncserver.py
  

@@ -12,3 +12,8 @@ Successful transactions:       25000
 Failed transactions:               0
 Longest transaction:            1.08
 Shortest transaction:           0.00
+
+# CPU/Memory usage
+
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+denis     3010  3.5  0.1  46752  4524 pts/4    S+   16:41   1:17 /usr/bin/python ./threadserver.py
