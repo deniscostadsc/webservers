@@ -12,7 +12,7 @@ BUFFER_SIZE = 1024
 ADDRESS = (HOST, PORT)
 
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-# server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 server_socket.setblocking(0)
 server_socket.bind(ADDRESS)
 server_socket.listen(5)
