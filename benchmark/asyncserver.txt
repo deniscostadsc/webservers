@@ -1,0 +1,14 @@
+# siege -c 100 -b -r 100 localhost:8085
+
+Transactions:              10000 hits
+Availability:             100.00 %
+Elapsed time:               6.26 secs
+Data transferred:           0.00 MB
+Response time:              0.03 secs
+Transaction rate:        1597.44 trans/sec
+Throughput:             0.00 MB/sec
+Concurrency:               46.99
+Successful transactions:       10000
+Failed transactions:               0
+Longest transaction:            3.35
+Shortest transaction:           0.00

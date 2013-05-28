@@ -1,12 +1,15 @@
-Transactions:              19971 hits
-Availability:              99.86 %
-Elapsed time:              33.70 secs
+# siege -c 140 -b -r 100 localhost:8083
+
+Transactions:              13997 hits
+Availability:              99.98 %
+Elapsed time:               8.28 secs
 Data transferred:           0.00 MB
-Response time:              0.12 secs
-Transaction rate:         592.61 trans/sec
+Response time:              0.04 secs
+Transaction rate:        1690.46 trans/sec
 Throughput:             0.00 MB/sec
-Concurrency:               71.08
-Successful transactions:       19971
-Failed transactions:              29
-Longest transaction:           21.87
+Concurrency:               69.26
+Successful transactions:       13997
+Failed transactions:               3
+Longest transaction:            3.66
 Shortest transaction:           0.00
+ 
